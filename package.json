@@ -1,0 +1,23 @@
+{
+  "name": "repl.it",
+  "version": "1.0.0",
+  "description": "No Description.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ".\\node_modules\\.bin\\electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Battledash_2",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "asar": "^3.0.3",
+    "custom-electron-titlebar": "^3.2.6",
+    "electron-context-menu": "^2.4.0",
+    "fs-extra": "^9.1.0"
+  }
+}
